@@ -1,0 +1,119 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #CB9FDD;
+}
+.profile_header {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  text-align: center;
+  background-image: url("https://i.ibb.co/tMbgxCw/logo-woman.png");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  z-index: 1;
+  background-position: center center;
+}
+.content_container {
+  padding-top: 100px;
+  position: relative;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 200;
+}
+.profile_card_wrapper {
+  width: 768px;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 15px;
+}
+.profile_card_schedule {
+  background-color: transparent;
+  padding: 0;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.profile_card_tip {
+  justify-content: center;
+}
+.card_schedule {
+  width: 145px;
+  height: 130px;
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.profile_card_wrapper p {
+  margin: 0;
+  padding-bottom: 10px;
+}
+.profile_card_wrapper .label {
+  font-weight: bold;
+  display: inline-block;
+  width: 160px;
+}
+.profile_sub_title {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+.color {
+  color: #ac89bf;
+}
+.tags {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+}
+.tags .value {
+  max-width: 604px;
+}
+.profile_about {
+  padding: 50px 100px 0;
+  text-align: center;
+}
+h4 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  border-bottom: 2px #745582 solid;
+}
+h2 p {
+  padding: 0;
+  font-size: 14px;
+}
+.tip_card {
+  width: 100px;
+  height: 165px;
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 15px;
+  display: inline-block;
+  margin: 5px;
+  box-sizing: border-box;
+  border: 3px solid #000;
+  color: #745582;
+  text-transform: uppercase;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  text-decoration: none;
+  font-weight: normal;
+}
